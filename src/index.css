@@ -204,4 +204,29 @@ a:hover{
 
 }
 }
+@media screen and (min-width: 980px) {
+  header {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  img{
+    width: 50px;
+    height: auto;
+  }
+  
+    h2 h1 h6{
+      font-size: 6.3rem;
+line-height: 85px;
+letter-spacing: -6px;
+
+    }
+
+    p{
+      font-size: 5.5rem;
+    }
+    btn{
+      width: 30px;
+      height: 10px;
+    }
+  }
 
