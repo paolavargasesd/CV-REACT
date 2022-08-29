@@ -31,7 +31,7 @@ const testimonials = () => {
                 return(
                     <SwiperSlide key={index} className="testimonial">
                         <div className="client__avatar">
-                        <video width={2000} src={avatar} controls/>
+                        <video width={700} src={avatar} controls/>
     
                         </div>
                         <h5 className='client__name'>{name}</h5>

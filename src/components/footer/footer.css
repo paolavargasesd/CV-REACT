@@ -1,5 +1,5 @@
 footer{
-    background: black;
+    
     color: red;
     padding: 3rem 0;
     text-align: center;
@@ -65,6 +65,7 @@ footer a{
 .footer__socials{
 
     font-size: 34px;
+    transform: translateX(-79px);
 
 }
 

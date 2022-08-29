@@ -17,7 +17,7 @@
 .nav a {
     transition: var(--transition);
     color: var(--color-primary);
-    background: transparent;
+    
     padding: 0.8rem;
     border-radius: 50%;
     display: flex;
@@ -38,6 +38,8 @@
   @media screen and (max-width: 700px) {
     a{
       width: 10%;
+      transform: translateX(70px);
+      
     }
     .nav a{
       

@@ -58,11 +58,12 @@
     .experience__frontend{
         font-size: 5px;
         text-align: left;
-        transform: translateX(-23px);
+        transform: translateX(-93px);
     }
     .experience__backend{
         font-size: 5px;
         text-align: left;
+        transform: translateX(-93px);
     }
     .text-light{
         font-size: 12px;
