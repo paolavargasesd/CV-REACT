@@ -33,10 +33,17 @@ h5,h2{
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .about__me{
         width: 65%;
         margin: 0 auto 3rem;
+    }
+    h2{
+        font-size: 194% ;
+    
+    }
+    p{
+        font-size: 65%;
     }
 
     .about_cards{

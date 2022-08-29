@@ -60,3 +60,31 @@ button {
 .then{
 	font-size: 500;
 }
+
+@media screen and (max-width: 700px) {
+	label{
+		font-size: 96%;
+		
+	}
+	input{
+		border-radius: 2px;
+		width: 90%;
+		height: 4%;
+		font-size: 80%;
+		text-align: center;
+         
+	}
+	button{
+		height: 40px;
+		width: 70px;
+		font-size: 120%;
+		text-align: left;
+		color: black;
+		border-radius: 5px;
+	}
+	textarea{
+		font-size: 90%;
+		height: 120px;
+		width: 100px;
+	}
+}

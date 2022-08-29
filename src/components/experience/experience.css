@@ -43,14 +43,31 @@
     row-gap: 2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
-    .experience__container{
-        gap: 1rem;
-    }
 
-    .experience__container > div{
-        width: 100%;
-        padding: 2rem 1rem;
+    h3{
+        font-size: 12px;
+        text-align: left;
     }
+    h4{
+        font-size: 12px;
+        text-align: left;
+    }
+   
+    .experience__frontend{
+        font-size: 5px;
+        text-align: left;
+        transform: translateX(-23px);
+    }
+    .experience__backend{
+        font-size: 5px;
+        text-align: left;
+    }
+    .text-light{
+        font-size: 12px;
+        text-align: left;
+
+    }
+   
 }
